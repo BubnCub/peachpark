@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Official Peach Park Concept: Attractions</title>
+        <link rel="stylesheet" href="Styles/PeachParkStyle.css">
+    </head>
+
+    <style>
+        nav ul li {
+            list-style-type: none;
+        }
+
+        #gallery  {
+        /*adding a flex display and row wrap, justifying to center*/
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        /*adding a border, margins, and padding*/
+        border:  4px double #613dc1;
+        margin: 8px;
+        padding: 18px;
+        /*curving the border radius*/
+        border-radius: 30px;
+    }
+
+    section {
+        /*adding margins and padding to the gallery*/
+        margin: 8px;
+        padding: 18px;
+        /*changing width*/
+        width: 350px;
+        /*flex rules*/
+        display: flex;
+        flex-direction: column;
+        flex: auto;
+    }
+
+    /*floating an image and using word shape*/
+    img[src*="gameboyadvance"] {
+        float: left;
+        margin: 0 1em 0 0;
+        shape-outside: circle(80px);
+    }
+
+    /*section style rules*/
+    section {
+        /*adding a border*/
+        border: 1px solid #613dc1;
+    }
+    </style>
+
+    <body>
+        <header>
+            <h1>The Attractions</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="PeachPark.html">Story</a></li>
+                    <li><a href="PeachParkCharacters.html">Cast</a></li>
+                    <li><a href="PeachParkAttractions.html">Attractions</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2 class="Intro">A theme park is only as good as the attractions it offers. Take a look at the wonderful places you can visit during your stay.</h2>
+
+            <article id="characters">
+                <div class="section">
+                    <h2 class="name">Peach Plaza</h2>
+                    <h3>
+                        <p class="summary">Your first steps into the park proper will be at Peach Plaza. This area hosts a wide range of shops, entertainment venues, and restaurants that provide a taste of what each area has to offer. The plaza is a maze of lush foliage full of places to rest in the shade during your extended stay. At the center of it all is Momo Castle, the delightfully spooky home of the Peach family, overlooking a massive entertainment venue with daily performances of all kinds. Take a load off, have a drink or something to eat, or simply enjoy the show.</p>
+                    </h3>
+                </div>
+
+                <div class="section">
+                    <h2 class="name">Momo Harbor</h2>
+                    <h3>
+                        <p class="summary">
+                            When you first arrive on our luxurious cruise ships you will dock at Momo Harbor. This bustling dock is where we see to the arrival of our guests and manage our supply shipments. Don't worry, you won't see the business end of this place, as you will be gleefully guided to the main entrance of the park proper.
+                        </p>
+                    </h3>
+                </div>
+
+                <div class="section">
+                    <h2 class="name">Doki bay</h2>
+                    <h3>
+                        <p class="summary">
+                            During your arrival to the island, you may have noticed the faint hint of fun to the left of the harbor. Indeed, it's just a short jaunt southwest from the plaza to find Doki bay. A cornucopia of water rides and excitement await, as well as beach side lounging and drink service for the adults. Don't worry parents, our dryad attendants have all the maternal instincts of the allmother herself, and will ensure no harm comes to your little ones. So sit back, have a drink, and enjoy the exquisite view from Doki bay.
+                        </p>
+                    </h3>
+                </div>
+
+                <div class="section">
+                    <h2 class="name">Miku's Garden</h2>
+                    <h3>
+                        <p class="summary">
+                            For a peaceful change of pace, we invite you to take a stroll through Miku's Garden. Nestled in Aura lake at the center of the island, this stunning mini island is the perfect place for a quiet picnic away from the hustle and bustle of the park. Keep your eyes peeled, for you are never alone in the garden. Some say the ghost of a young girl ready for school calls this place home, but do not fear. Miku has only ever wanted a friend. Could you be that friend? 
+                        </p>
+                    </h3>
+                </div>
+
+                <div class="section">
+                    <h2 class="nameEvil">Momo Academy</h2>
+                    <h3>
+                        <p id="notice">WARNING: Accessing this attraction outside of the month of halloween is strictly prohibited. Peach Park is not responsible for the consequences of breaching this restriction.</p>
+                        <p class="summary">
+                            If you're in for a thrill, this is the attraction for you. On the eastern side of the central island valley, nestled against the cliff is an abandoned school with a mysterious past. A diabolical labyrinth awaits the moment you enter, as the anatomy of the school grounds, and indeed the school itself, shift subliminally as you make your way through the haunted grounds. Some say a tragedy befell this cursed location, and to find a black rose is to begin to unravel its secrets. Beware, for they also say when you pluck this rose a murderous fiend will haunt your every step. Can you make it out alive?
+                        </p>
+                    </h3>
+                </div>
+
+                <div class="section">
+                    <h2 class="name">Lovers Cove</h2>
+                    <h3>
+                        <p class="summary">
+                            Parents, are you looking to rekindle that spark, or simply want a romantic evening from the kids? We have the perfect place for you. Just north of Doki bay, nestled in a large cove is an open air restaurant at the top of a large hill. Romantic views await as fireflies dance around the cove. Enjoy blissful music and five star cuisine as you gaze into your lover's eyes. Leave all your worries at the door, and remember that, whether your love is a he, she, they, or anything in between, your love can blossom here.
+                        </p>
+                    </h3>
+                </div>
+
+                <div class="section">
+                    <h2 class="name">Scalliwag Shores</h2>
+                    <h3>
+                        <p class="summary">
+                            Do you long for the open sea? Fancy a swashbuckling search for treasure? Is the pirate's life for thee? Then come to Scalliwag Shores! A veritable pirate's paradise, this wonderous locale will spark the desire for adventure in everyone. Sail a pirate ship through the open seas, dig for buried dubloons, and dress in your buckaneer best! Don't forget your fruity drinks! You don't want to get scurvy, do you?
+                        </p>
+                    </h3>
+                </div>
+
+                <div class="section">
+                    <h2 class="name">Hotel of Illusion</h2>
+                    <h3>
+                        <p class="summary">
+                            Who says your accomodations have to be the boring part of your stay? The Hotel of Illusion is haunted in only the most delightful of ways. Our friendly, ghostly staff will see to your every need and ensure you find your rooms. Experience grand magical feats in the entertainment hall, or simply play hide and seek with the residents. Be warned, the residents can go through walls, but you can't.
+                        </p>
+                    </h3>
+                </div>
+
+                <div class="section">
+                    <h2 class="name">MORE ATTRACTIONS TO COME!</h2>
+                </div>
+
+            </article>
+        </main>
+    </body>
+</html>

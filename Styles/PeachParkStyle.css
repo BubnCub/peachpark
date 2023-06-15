@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=DynaPuff:wght@700&family=Rubik+Wet+Paint&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    border: 1px solid;
+    border-radius: .5em;
+    padding: .5em 1em;
+    margin: .5em;
+    /*font changes*/
+    font-family: 'Rubik Iso', sans-serif;
+    font-size: medium;
+    letter-spacing: 2px;
+    color: #ff9899;
+    background-color: rgba(103, 65, 126, .8);
+}
+
+body {
+    background-color: #ff9899;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+/*font changes for h1, h2, and h3*/
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #67417e;
+}
+#first {
+    font-family: 'Concert One', sans-serif;
+}
+
+#second {
+    font-family: 'Dynapuff', sans-serif;
+    font-size: 5rem;
+    color: pink;
+    text-shadow: .05em .05em black;
+    margin: 0;
+}
+#third {
+    font-family: 'Rubik Wet Paint', sans-serif;
+    font-size: 6rem;
+    color: #bb0a1e;
+    text-shadow: .05em .05em black;
+    margin: 0;
+}
+
+.section {
+    padding: 1em;
+    margin: 1em;
+    border: double #22031f;
+}
+
+.Intro {
+    font-family: 'Concert One', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #ff9899;
+    text-shadow: .05em .05em black;
+}
+
+#notice {
+    background-color: red;
+    text-align: center;
+    /*block code*/
+    display: block;
+    border: 2px solid;
+    border-radius: .5em;
+    padding: .3em .05em;
+    margin: .5em 2em .5em 2em;
+    /*font changes*/
+    font-family: 'Bebas Neue',sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.subtitle, .name {
+    font-family: 'Dynapuff', sans-serif;
+    text-align: center;
+    color: #ff9899;
+    text-shadow: .05em .05em black;
+}
+
+.name {
+    font-size: 2rem;
+}
+.nameEvil {
+    font-family: 'Rubik Wet Paint', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #bb0a1e;
+    text-shadow: .05em .05em black;
+}
+
+.paragraph, .summary {
+    font-family: 'Concert One', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: .05em .05em black;
+}
+.summaryEvil {
+    font-family: 'Concert One', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.credit {
+    color: white;
+}
+
+main {
+    /*background color changed to black using hex*/
+    background-color: rgba(103, 65, 126, .5);
+    /*changing the look of the main block and adding a border*/
+    margin: 1em;
+    border: outset 4px #67417e;
+    border-radius: 20px;
+}
+
+/*changed color of anchor tags*/
+a {
+    color: #ff9899;
+}
+
+/*changed hover and active anchor tag appearance*/
+a:hover {
+    color: #fa7c7f;
+}
+a:active {
+    color: #fff;
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#song {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: .05em .05em black;
+    background-color: rgba(103, 65, 126, .8);
+    padding: 0;
+    margin: 0 20em 0 20em;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+}
